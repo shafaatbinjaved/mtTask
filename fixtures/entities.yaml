@@ -1,0 +1,6 @@
+App\Entity\Product:
+
+  product_{1..200}:
+    name: '<name()>'
+    category: '<randomElement(["boots", "sandal", "sneaker", "oxford", "loafer", "blucher", "derby"])>'
+    price: '<numberBetween(1000, 50000)>'
